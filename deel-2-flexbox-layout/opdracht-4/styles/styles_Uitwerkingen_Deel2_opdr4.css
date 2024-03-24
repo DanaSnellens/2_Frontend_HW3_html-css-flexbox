@@ -1,0 +1,15 @@
+body {
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+}
+
+.outer-col-1 /*NAV*/ {
+    flex-basis: 20vw;
+    /*...........*/
+}
+
+.outer-col-2 /*HEADER,ARTICLE, FOOTER (INNER-ROW, INNER-COL)*/ {
+
+}
+
