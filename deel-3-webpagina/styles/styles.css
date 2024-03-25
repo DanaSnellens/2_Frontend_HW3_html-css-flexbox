@@ -10,18 +10,47 @@ body {
     text-align: center;
 }
 
+.navigation {
+    background-color: #030027;
+    color: white;
+    padding: 30px 50px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.company-name {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.navigation ul {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 400px;
+    flex-shrink: 1;
+    flex-grow: 0;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.page-title {
+    padding: 50px;
+}
+
 .inner-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin: 50px;
+    margin: 30px;
     border-radius: 10px;
 }
 
 .text-block {
     background-color: #C16E70;
     padding: 15px;
-    margin: 15px;
+    margin: 25px;
     border-radius: 5px;
     height: 350px;
 
@@ -31,5 +60,4 @@ body {
     flex-basis: 280px;
     flex-grow: 0;
     flex-shrink: 1;
-
 }
